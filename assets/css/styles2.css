@@ -1,0 +1,12 @@
+#menuNav:hover {
+    background-color: black;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#top {
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}

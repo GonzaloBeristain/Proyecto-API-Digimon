@@ -1,0 +1,59 @@
+.ampliada {
+    transform: scale(4.15);
+    border-radius: 5px;
+    border: solid 1px #ff4444
+    }
+
+.buscar {
+    margin-left: 0px;
+}
+
+#indice {
+    display: flex;
+    justify-content:space-between;
+}
+
+#letra {
+    margin: 4px;
+    cursor: pointer;
+}
+
+#letra:hover {
+    color:rgb(0, 0, 0)
+}
+
+.card {
+    margin: 0 auto;
+}
+
+#contenido {
+    display: none;
+}
+
+#nombre {
+    width: 400px;
+    margin: 10
+}
+
+@media (max-width: 576px) {
+    .letras {
+        font-size: 14px;
+        gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #letra {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    #letra:last-child {
+        margin-right: 0;
+    }
+}
+
+
